@@ -252,8 +252,13 @@
 			<Language>Русский</Language>
 			<Subsystem>Склад</Subsystem>
 			<Catalog>Номенклатура</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>Договоры</Catalog>
+			<Catalog>ЗначениеХарактеристик</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Enum>НДС</Enum>
+			<InformationRegister>ХарактеристикаНоменклатуры</InformationRegister>
+			<ChartOfCharacteristicTypes>Характеристики</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
