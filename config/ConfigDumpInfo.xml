@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.Номенклатура" id="e15e6f65-9443-4a80-b4bc-96479a2372bf" configVersion="224d977b0632c845b779e2ac981217dc00000000">
+			<Metadata name="Catalog.Номенклатура.Attribute.НДС" id="8dcfc166-42b4-4c03-a868-edc55ea12b4f"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ПолноеНаименование" id="a7ca60b8-82ce-4ee0-aa26-f0130de195db"/>
+		</Metadata>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента" id="d3f1ef5d-5f76-4729-a324-790c8463511d" configVersion="08ac00726038ad4d9a4c162c240d001d00000000"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="d3f1ef5d-5f76-4729-a324-790c8463511d.0" configVersion="8f62297c77cb15408a6ecf568dab825200000000"/>
+		<Metadata name="Configuration.Склад_инфо" id="95900a8f-24c7-4fbd-a915-c8ae18b8f3df" configVersion="e59ee6303d493f4185524ed7c719e27200000000"/>
+		<Metadata name="Document.ПриходнаяНакладная" id="c892cf94-2d89-4e0a-8029-ed69aa5c41c5" configVersion="3d4ff1f2b739f04ab0d91511e578e13900000000"/>
+		<Metadata name="Enum.НДС" id="aed983c5-be65-43d1-83cb-d8d87156f045" configVersion="e14880545cf13c4cbb817d9bbfc0312700000000">
+			<Metadata name="Enum.НДС.EnumValue.ЗП10" id="10f91a0b-1985-43a3-9729-f1279a7b9d59"/>
+			<Metadata name="Enum.НДС.EnumValue.ЗПБЕЗНДС" id="b85aabb5-8e8d-4211-9e79-a530851acc99"/>
+			<Metadata name="Enum.НДС.EnumValue.ЗП20" id="bc9a6b22-7e2e-407b-b160-b940f58a1f3d"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="a77000bb-7f72-41e7-a6e6-24d766898f27" configVersion="20461a11fd54a74d840b970150bd517f00000000"/>
+		<Metadata name="Subsystem.Склад" id="88d586f7-83db-4daa-8bcb-304fe9e796d7" configVersion="c166bc562bb6634b90d6c08c1542b6ec00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
