@@ -255,6 +255,8 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Договоры</Catalog>
 			<Catalog>ЗначениеХарактеристик</Catalog>
+			<Catalog>Склады</Catalog>
+			<Catalog>ЕдиницаИзмерения</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Enum>НДС</Enum>
 			<InformationRegister>ХарактеристикаНоменклатуры</InformationRegister>

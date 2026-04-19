@@ -33,6 +33,12 @@
 			<ContextMenu name="ПолноеНаименованиеКонтекстноеМеню" id="13"/>
 			<ExtendedTooltip name="ПолноеНаименованиеРасширеннаяПодсказка" id="14"/>
 		</InputField>
+		<InputField name="ЕдиницаИзмерения" id="18">
+			<DataPath>Объект.ЕдиницаИзмерения</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЕдиницаИзмеренияКонтекстноеМеню" id="19"/>
+			<ExtendedTooltip name="ЕдиницаИзмеренияРасширеннаяПодсказка" id="20"/>
+		</InputField>
 		<InputField name="НДС" id="15">
 			<DataPath>Объект.НДС</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
