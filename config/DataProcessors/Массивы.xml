@@ -1,31 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Subsystem uuid="88d586f7-83db-4daa-8bcb-304fe9e796d7">
+	<DataProcessor uuid="2ffc48d4-771b-475d-8118-019f4181aa91">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.Массивы" category="Object">
+				<xr:TypeId>4e0fe56d-2d2f-46b3-9b11-6c55ca7e9c0d</xr:TypeId>
+				<xr:ValueId>291637e2-b4ce-4c9f-b4c1-59fc6bc7a131</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.Массивы" category="Manager">
+				<xr:TypeId>c9c24908-622b-4545-91b4-4f3ed2e2d916</xr:TypeId>
+				<xr:ValueId>893fe96a-5d39-4e89-b76f-3360b585d096</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>Склад</Name>
+			<Name>Массивы</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Склад</v8:content>
+					<v8:content>Массивы</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>true</IncludeInCommandInterface>
-			<UseOneCommand>false</UseOneCommand>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.Массивы.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
 			<Explanation/>
-			<Picture/>
-			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриходнаяНакладная</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Договоры</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Склады</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЕдиницаИзмерения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПримерыПФ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Массивы</xr:Item>
-			</Content>
 		</Properties>
-		<ChildObjects/>
-	</Subsystem>
+		<ChildObjects>
+			<Form>Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
 </MetaDataObject>
