@@ -24,6 +24,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЕдиницаИзмерения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПримерыПФ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Массивы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТаблицаЗначений</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
