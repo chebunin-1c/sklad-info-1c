@@ -259,6 +259,7 @@
 			<Catalog>ЕдиницаИзмерения</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Enum>НДС</Enum>
+			<DataProcessor>ПримерыПФ</DataProcessor>
 			<InformationRegister>ХарактеристикаНоменклатуры</InformationRegister>
 			<ChartOfCharacteristicTypes>Характеристики</ChartOfCharacteristicTypes>
 		</ChildObjects>
