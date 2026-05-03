@@ -28,6 +28,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.СписокЗначений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Структура</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЭлементыИРеквизиты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ИмпортЭкспорт</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

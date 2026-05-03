@@ -265,6 +265,7 @@
 			<DataProcessor>СписокЗначений</DataProcessor>
 			<DataProcessor>Структура</DataProcessor>
 			<DataProcessor>ЭлементыИРеквизиты</DataProcessor>
+			<DataProcessor>ИмпортЭкспорт</DataProcessor>
 			<InformationRegister>ХарактеристикаНоменклатуры</InformationRegister>
 			<ChartOfCharacteristicTypes>Характеристики</ChartOfCharacteristicTypes>
 		</ChildObjects>

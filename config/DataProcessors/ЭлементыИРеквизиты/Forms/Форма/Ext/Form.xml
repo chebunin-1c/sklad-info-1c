@@ -176,6 +176,13 @@
 					<ContextMenu name="ТЧЕдКонтекстноеМеню" id="46"/>
 					<ExtendedTooltip name="ТЧЕдРасширеннаяПодсказка" id="47"/>
 				</InputField>
+				<InputField name="ТЧИтоговаяЦена" id="59">
+					<DataPath>Объект.ТЧ.ИтоговаяЦена</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТЧИтоговаяЦенаКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="ТЧИтоговаяЦенаРасширеннаяПодсказка" id="61"/>
+				</InputField>
 			</ChildItems>
 		</Table>
 		<LabelField name="ТЧИтогЦена" id="53">
