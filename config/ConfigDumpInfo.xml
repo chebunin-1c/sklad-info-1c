@@ -33,13 +33,18 @@
 		<Metadata name="DataProcessor.ТаблицаЗначений" id="1411f303-1de9-4232-a7a1-4aa0ec270ed7" configVersion="2a583f64da39784d9f9461464060449a00000000"/>
 		<Metadata name="DataProcessor.ТаблицаЗначений.Form.Форма" id="83f9799c-7189-4592-8c43-e5a169cab40b" configVersion="67eff5db18220245b585d2b3ea4ffb5e00000000"/>
 		<Metadata name="DataProcessor.ТаблицаЗначений.Form.Форма.Form" id="83f9799c-7189-4592-8c43-e5a169cab40b.0" configVersion="94740bb8f5a9a14ba7d44a0781527b3f00000000"/>
-		<Metadata name="DataProcessor.ЭлементыИРеквизиты" id="39636fcc-2094-4b9e-9675-9608f208d3b4" configVersion="6911bca380e1b547bd93977f19dfc53500000000">
+		<Metadata name="DataProcessor.ЭлементыИРеквизиты" id="39636fcc-2094-4b9e-9675-9608f208d3b4" configVersion="1ad8f05d6341e14dba1f29723fe99ace00000000">
 			<Metadata name="DataProcessor.ЭлементыИРеквизиты.Attribute.НашФлаг" id="03ada4e8-0a04-4cf7-8913-b113444d970c"/>
+			<Metadata name="DataProcessor.ЭлементыИРеквизиты.TabularSection.ТЧ.Attribute.Ед" id="03cf0ef6-5356-4f2b-a852-8ee5bb613890"/>
+			<Metadata name="DataProcessor.ЭлементыИРеквизиты.TabularSection.ТЧ.Attribute.Количество" id="23793fa0-9c95-4bf1-aa9b-43c5b711740c"/>
 			<Metadata name="DataProcessor.ЭлементыИРеквизиты.Attribute.Поле4" id="391012f7-a5ec-402d-b8e9-5ff67d21280b"/>
+			<Metadata name="DataProcessor.ЭлементыИРеквизиты.TabularSection.ТЧ.Attribute.Товар" id="3e351f46-e51d-4b6c-b73e-ab3655086d9b"/>
+			<Metadata name="DataProcessor.ЭлементыИРеквизиты.TabularSection.ТЧ" id="7c52b024-b75a-41ea-89ce-0e2bb1d3f598"/>
+			<Metadata name="DataProcessor.ЭлементыИРеквизиты.TabularSection.ТЧ.Attribute.Цена" id="90a15d77-fca6-43ba-998d-389f3f3a1a7f"/>
 			<Metadata name="DataProcessor.ЭлементыИРеквизиты.Attribute.Переключатель" id="ee50291d-32d0-487b-9667-c33f71728c63"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ЭлементыИРеквизиты.Form.Форма" id="442041dd-050b-4720-8aa5-d4e8cc449be5" configVersion="faef584677dd9b4080354da1c5e51a6b00000000"/>
-		<Metadata name="DataProcessor.ЭлементыИРеквизиты.Form.Форма.Form" id="442041dd-050b-4720-8aa5-d4e8cc449be5.0" configVersion="9d38685bd52b8c4798d146a37adc4a7100000000"/>
+		<Metadata name="DataProcessor.ЭлементыИРеквизиты.Form.Форма" id="442041dd-050b-4720-8aa5-d4e8cc449be5" configVersion="38074e0e46fe3844b1d32f6de249b19b00000000"/>
+		<Metadata name="DataProcessor.ЭлементыИРеквизиты.Form.Форма.Form" id="442041dd-050b-4720-8aa5-d4e8cc449be5.0" configVersion="351dd3e5ab896449ae39abbdb439c2de00000000"/>
 		<Metadata name="Document.ПриходнаяНакладная" id="c892cf94-2d89-4e0a-8029-ed69aa5c41c5" configVersion="8a27153a6c991f498c64305b9aa399c100000000">
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.ТЧ.Attribute.Количество" id="507d0a74-b347-4c1c-8ee9-84373e031443"/>
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.ТЧ" id="75ff9584-da95-4d95-9edf-f932dcad0ec9"/>

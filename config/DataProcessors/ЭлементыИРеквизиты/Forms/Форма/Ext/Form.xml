@@ -100,6 +100,94 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
+		<Table name="ТЧ" id="23">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ТЧ</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТЧКонтекстноеМеню" id="24"/>
+			<AutoCommandBar name="ТЧКоманднаяПанель" id="25">
+				<ChildItems>
+					<Button name="ТЧЗаполнить" id="51">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Заполнить</CommandName>
+						<ExtendedTooltip name="ТЧЗаполнитьРасширеннаяПодсказка" id="52"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ТЧРасширеннаяПодсказка" id="26"/>
+			<SearchStringAddition name="ТЧСтрокаПоиска" id="27">
+				<AdditionSource>
+					<Item>ТЧ</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЧСтрокаПоискаКонтекстноеМеню" id="28"/>
+				<ExtendedTooltip name="ТЧСтрокаПоискаРасширеннаяПодсказка" id="29"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТЧСостояниеПросмотра" id="30">
+				<AdditionSource>
+					<Item>ТЧ</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЧСостояниеПросмотраКонтекстноеМеню" id="31"/>
+				<ExtendedTooltip name="ТЧСостояниеПросмотраРасширеннаяПодсказка" id="32"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТЧУправлениеПоиском" id="33">
+				<AdditionSource>
+					<Item>ТЧ</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЧУправлениеПоискомКонтекстноеМеню" id="34"/>
+				<ExtendedTooltip name="ТЧУправлениеПоискомРасширеннаяПодсказка" id="35"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ТЧНомерСтроки" id="36">
+					<DataPath>Объект.ТЧ.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧНомерСтрокиКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="ТЧНомерСтрокиРасширеннаяПодсказка" id="38"/>
+				</LabelField>
+				<InputField name="ТЧТовар" id="39">
+					<DataPath>Объект.ТЧ.Товар</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТЧТоварКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="ТЧТоварРасширеннаяПодсказка" id="41"/>
+				</InputField>
+				<InputField name="ТЧЦена" id="42">
+					<DataPath>Объект.ТЧ.Цена</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТЧЦенаКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="ТЧЦенаРасширеннаяПодсказка" id="44"/>
+				</InputField>
+				<InputField name="ТЧКоличество" id="48">
+					<DataPath>Объект.ТЧ.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТЧКоличествоКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="ТЧКоличествоРасширеннаяПодсказка" id="50"/>
+				</InputField>
+				<InputField name="ТЧЕд" id="45">
+					<DataPath>Объект.ТЧ.Ед</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТЧЕдКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="ТЧЕдРасширеннаяПодсказка" id="47"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<LabelField name="ТЧИтогЦена" id="53">
+			<DataPath>Объект.ТЧ.TotalЦена</DataPath>
+			<ContextMenu name="ТЧИтогЦенаКонтекстноеМеню" id="54"/>
+			<ExtendedTooltip name="ТЧИтогЦенаРасширеннаяПодсказка" id="55"/>
+		</LabelField>
+		<LabelField name="ТЧИтогКоличество" id="56">
+			<DataPath>Объект.ТЧ.TotalКоличество</DataPath>
+			<ContextMenu name="ТЧИтогКоличествоКонтекстноеМеню" id="57"/>
+			<ExtendedTooltip name="ТЧИтогКоличествоРасширеннаяПодсказка" id="58"/>
+		</LabelField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -172,6 +260,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Старт</Action>
+		</Command>
+		<Command name="Заполнить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Заполнить</Action>
 		</Command>
 	</Commands>
 </Form>
