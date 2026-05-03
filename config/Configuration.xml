@@ -264,6 +264,7 @@
 			<DataProcessor>ТаблицаЗначений</DataProcessor>
 			<DataProcessor>СписокЗначений</DataProcessor>
 			<DataProcessor>Структура</DataProcessor>
+			<DataProcessor>ЭлементыИРеквизиты</DataProcessor>
 			<InformationRegister>ХарактеристикаНоменклатуры</InformationRegister>
 			<ChartOfCharacteristicTypes>Характеристики</ChartOfCharacteristicTypes>
 		</ChildObjects>

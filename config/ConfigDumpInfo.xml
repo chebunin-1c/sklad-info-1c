@@ -17,7 +17,7 @@
 		<Metadata name="Catalog.Склады" id="5d4491f8-4296-48c7-8140-06417f37dbfb" configVersion="c45cca7fa80d0147b73cbca808d78b0400000000"/>
 		<Metadata name="Catalog.Склады.Predefined" id="5d4491f8-4296-48c7-8140-06417f37dbfb.1c" configVersion="589c14e2b683354990e07b40a8d4c4d800000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.Характеристики" id="7d09c2d5-a879-4c81-9a47-9c720db8bef8" configVersion="6c1a078a2c66d849b0ad233adb6033b000000000"/>
-		<Metadata name="Configuration.Склад_инфо" id="95900a8f-24c7-4fbd-a915-c8ae18b8f3df" configVersion="0ba7fdb28d474643bdbd52e9da7870fb00000000"/>
+		<Metadata name="Configuration.Склад_инфо" id="95900a8f-24c7-4fbd-a915-c8ae18b8f3df" configVersion="749dc1867f1ae748b9cea2816868538100000000"/>
 		<Metadata name="DataProcessor.Массивы" id="2ffc48d4-771b-475d-8118-019f4181aa91" configVersion="c075fc0377753a4e877d2edac926c7de00000000"/>
 		<Metadata name="DataProcessor.Массивы.Form.Форма" id="f8cbcc99-a895-4b0f-b58a-ca870cac3c6b" configVersion="f083fdaa4ea9a94ba8e4df73382fd53400000000"/>
 		<Metadata name="DataProcessor.Массивы.Form.Форма.Form" id="f8cbcc99-a895-4b0f-b58a-ca870cac3c6b.0" configVersion="cc2646f77db95e4b9f998e628835fbea00000000"/>
@@ -33,6 +33,13 @@
 		<Metadata name="DataProcessor.ТаблицаЗначений" id="1411f303-1de9-4232-a7a1-4aa0ec270ed7" configVersion="2a583f64da39784d9f9461464060449a00000000"/>
 		<Metadata name="DataProcessor.ТаблицаЗначений.Form.Форма" id="83f9799c-7189-4592-8c43-e5a169cab40b" configVersion="67eff5db18220245b585d2b3ea4ffb5e00000000"/>
 		<Metadata name="DataProcessor.ТаблицаЗначений.Form.Форма.Form" id="83f9799c-7189-4592-8c43-e5a169cab40b.0" configVersion="94740bb8f5a9a14ba7d44a0781527b3f00000000"/>
+		<Metadata name="DataProcessor.ЭлементыИРеквизиты" id="39636fcc-2094-4b9e-9675-9608f208d3b4" configVersion="6911bca380e1b547bd93977f19dfc53500000000">
+			<Metadata name="DataProcessor.ЭлементыИРеквизиты.Attribute.НашФлаг" id="03ada4e8-0a04-4cf7-8913-b113444d970c"/>
+			<Metadata name="DataProcessor.ЭлементыИРеквизиты.Attribute.Поле4" id="391012f7-a5ec-402d-b8e9-5ff67d21280b"/>
+			<Metadata name="DataProcessor.ЭлементыИРеквизиты.Attribute.Переключатель" id="ee50291d-32d0-487b-9667-c33f71728c63"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ЭлементыИРеквизиты.Form.Форма" id="442041dd-050b-4720-8aa5-d4e8cc449be5" configVersion="faef584677dd9b4080354da1c5e51a6b00000000"/>
+		<Metadata name="DataProcessor.ЭлементыИРеквизиты.Form.Форма.Form" id="442041dd-050b-4720-8aa5-d4e8cc449be5.0" configVersion="9d38685bd52b8c4798d146a37adc4a7100000000"/>
 		<Metadata name="Document.ПриходнаяНакладная" id="c892cf94-2d89-4e0a-8029-ed69aa5c41c5" configVersion="8a27153a6c991f498c64305b9aa399c100000000">
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.ТЧ.Attribute.Количество" id="507d0a74-b347-4c1c-8ee9-84373e031443"/>
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.ТЧ" id="75ff9584-da95-4d95-9edf-f932dcad0ec9"/>
@@ -51,6 +58,6 @@
 			<Metadata name="InformationRegister.ХарактеристикаНоменклатуры.Dimension.Номенклатура" id="ecb1c95e-581e-4e6a-bebf-44a308b27cbe"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="a77000bb-7f72-41e7-a6e6-24d766898f27" configVersion="20461a11fd54a74d840b970150bd517f00000000"/>
-		<Metadata name="Subsystem.Склад" id="88d586f7-83db-4daa-8bcb-304fe9e796d7" configVersion="f491278af91af54e94d32e9b408043e000000000"/>
+		<Metadata name="Subsystem.Склад" id="88d586f7-83db-4daa-8bcb-304fe9e796d7" configVersion="094dfbbd66bfff488e7a50be25d3ff5b00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
