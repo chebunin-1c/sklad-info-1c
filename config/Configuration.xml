@@ -262,6 +262,8 @@
 			<DataProcessor>ПримерыПФ</DataProcessor>
 			<DataProcessor>Массивы</DataProcessor>
 			<DataProcessor>ТаблицаЗначений</DataProcessor>
+			<DataProcessor>СписокЗначений</DataProcessor>
+			<DataProcessor>Структура</DataProcessor>
 			<InformationRegister>ХарактеристикаНоменклатуры</InformationRegister>
 			<ChartOfCharacteristicTypes>Характеристики</ChartOfCharacteristicTypes>
 		</ChildObjects>
