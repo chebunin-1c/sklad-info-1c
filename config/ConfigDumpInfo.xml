@@ -17,7 +17,10 @@
 		<Metadata name="Catalog.Склады" id="5d4491f8-4296-48c7-8140-06417f37dbfb" configVersion="c45cca7fa80d0147b73cbca808d78b0400000000"/>
 		<Metadata name="Catalog.Склады.Predefined" id="5d4491f8-4296-48c7-8140-06417f37dbfb.1c" configVersion="589c14e2b683354990e07b40a8d4c4d800000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.Характеристики" id="7d09c2d5-a879-4c81-9a47-9c720db8bef8" configVersion="6c1a078a2c66d849b0ad233adb6033b000000000"/>
-		<Metadata name="Configuration.Склад_инфо" id="95900a8f-24c7-4fbd-a915-c8ae18b8f3df" configVersion="667cfa996e39f145aa2cbb6aa79f784d00000000"/>
+		<Metadata name="Configuration.Склад_инфо" id="95900a8f-24c7-4fbd-a915-c8ae18b8f3df" configVersion="111f8a9ef2231c4195c5b7bed55345f100000000"/>
+		<Metadata name="DataProcessor.ДеревоЗначений" id="1c2715d1-371c-4363-b672-6585057a9ebc" configVersion="0d3c6c7b6808c740b900691a4639395000000000"/>
+		<Metadata name="DataProcessor.ДеревоЗначений.Form.Форма" id="303d3bf2-e2ee-4e5d-8482-fc0298b87ec0" configVersion="1c30c297fe75db4aa91e051c7d8af13500000000"/>
+		<Metadata name="DataProcessor.ДеревоЗначений.Form.Форма.Form" id="303d3bf2-e2ee-4e5d-8482-fc0298b87ec0.0" configVersion="2c1991ce679c01478ba8df490da8e94700000000"/>
 		<Metadata name="DataProcessor.ИмпортЭкспорт" id="3d0a5844-6bf6-4e58-8981-f9a612d5ac27" configVersion="1e68469387e5e947b5c1aa3c510a793800000000">
 			<Metadata name="DataProcessor.ИмпортЭкспорт.TabularSection.ТЧ.Attribute.Количество" id="39e0c4c8-97f1-40b6-94db-f8d8438e297a"/>
 			<Metadata name="DataProcessor.ИмпортЭкспорт.TabularSection.ТЧ.Attribute.Цена" id="56eb820f-5f33-4c1d-8a40-c1d0e8842f5e"/>
@@ -73,6 +76,6 @@
 			<Metadata name="InformationRegister.ХарактеристикаНоменклатуры.Dimension.Номенклатура" id="ecb1c95e-581e-4e6a-bebf-44a308b27cbe"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="a77000bb-7f72-41e7-a6e6-24d766898f27" configVersion="20461a11fd54a74d840b970150bd517f00000000"/>
-		<Metadata name="Subsystem.Склад" id="88d586f7-83db-4daa-8bcb-304fe9e796d7" configVersion="a6f8be3d22bdba42ab6b3dbef917081600000000"/>
+		<Metadata name="Subsystem.Склад" id="88d586f7-83db-4daa-8bcb-304fe9e796d7" configVersion="7a7b2690164a844982f2563b0693dba200000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
