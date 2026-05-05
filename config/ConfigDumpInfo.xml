@@ -19,8 +19,8 @@
 		<Metadata name="ChartOfCharacteristicTypes.Характеристики" id="7d09c2d5-a879-4c81-9a47-9c720db8bef8" configVersion="6c1a078a2c66d849b0ad233adb6033b000000000"/>
 		<Metadata name="Configuration.Склад_инфо" id="95900a8f-24c7-4fbd-a915-c8ae18b8f3df" configVersion="111f8a9ef2231c4195c5b7bed55345f100000000"/>
 		<Metadata name="DataProcessor.ДеревоЗначений" id="1c2715d1-371c-4363-b672-6585057a9ebc" configVersion="0d3c6c7b6808c740b900691a4639395000000000"/>
-		<Metadata name="DataProcessor.ДеревоЗначений.Form.Форма" id="303d3bf2-e2ee-4e5d-8482-fc0298b87ec0" configVersion="1c30c297fe75db4aa91e051c7d8af13500000000"/>
-		<Metadata name="DataProcessor.ДеревоЗначений.Form.Форма.Form" id="303d3bf2-e2ee-4e5d-8482-fc0298b87ec0.0" configVersion="2c1991ce679c01478ba8df490da8e94700000000"/>
+		<Metadata name="DataProcessor.ДеревоЗначений.Form.Форма" id="303d3bf2-e2ee-4e5d-8482-fc0298b87ec0" configVersion="fc4d73d9ffde2244840854c52f9841dc00000000"/>
+		<Metadata name="DataProcessor.ДеревоЗначений.Form.Форма.Form" id="303d3bf2-e2ee-4e5d-8482-fc0298b87ec0.0" configVersion="3cbab99dc7c42149afdd8bdd842e924300000000"/>
 		<Metadata name="DataProcessor.ИмпортЭкспорт" id="3d0a5844-6bf6-4e58-8981-f9a612d5ac27" configVersion="1e68469387e5e947b5c1aa3c510a793800000000">
 			<Metadata name="DataProcessor.ИмпортЭкспорт.TabularSection.ТЧ.Attribute.Количество" id="39e0c4c8-97f1-40b6-94db-f8d8438e297a"/>
 			<Metadata name="DataProcessor.ИмпортЭкспорт.TabularSection.ТЧ.Attribute.Цена" id="56eb820f-5f33-4c1d-8a40-c1d0e8842f5e"/>
